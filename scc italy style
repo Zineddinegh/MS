@@ -1,0 +1,103 @@
+/* Background with the Italian flag */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('italy-flag.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Header styling */
+header {
+    background: rgba(0, 50, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #008000;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 50, 0, 0.7);
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 15px;
+}
+
+/* Headings and text styling */
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #ffcc00;
+}
+
+h3 {
+    font-size: 24px;
+    color: #ffcc00;
+}
+
+/* Lists styling */
+ul, ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+ul li, ol li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Video styling */
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background: rgba(0, 50, 0, 0.8);
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+}
