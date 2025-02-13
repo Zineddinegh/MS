@@ -1,0 +1,124 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #002244, #0055AA);
+    color: white;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background: rgba(0, 0, 50, 0.8);
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #ff0000;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Animation section */
+.animation-section {
+    margin-top: 50px;
+}
+
+.animation-section h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #ffcc00;
+}
+
+/* Animation container */
+.animation-container {
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+}
+
+/* Boy image */
+.boy {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Thought bubble */
+.thought-bubble {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Flags animation */
+.flag {
+    width: 40px;
+    position: absolute;
+    opacity: 0;
+}
+
+/* Canada flag */
+.flag1 {
+    animation: floatFlag 3s infinite;
+}
+
+/* Italy flag */
+.flag2 {
+    animation: floatFlag 3s infinite 1s;
+}
+
+/* USA flag */
+.flag3 {
+    animation: floatFlag 3s infinite 2s;
+}
+
+/* Floating effect */
+@keyframes floatFlag {
+    0% { opacity: 0; transform: translateY(20px); }
+    50% { opacity: 1; transform: translateY(0px); }
+    100% { opacity: 0; transform: translateY(-20px); }
+}
+
+/* Footer styling */
+footer {
+    background: rgba(0, 0, 50, 0.8);
+    padding: 15px;
+    font-size: 14px;
+}
