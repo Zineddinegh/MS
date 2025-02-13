@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMulti Service - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to StudyMulti Service</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="canada.html">Canada Visa</a></li>
+                <li><a href="italy.html">Italy Visa</a></li>
+                <li><a href="usa.html">USA Visa</a></li>
+                <li><a href="caq.html">CAQ Services</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="animation-section">
+            <h2>Dreaming of Studying Abroad?</h2>
+            <p>We help students from Algeria achieve their dreams of studying in Canada, Italy, and the USA.</p>
+
+            <div class="animation-container">
+                <img src="boy-dreaming.png" alt="Boy Dreaming" class="boy">
+                <div class="thought-bubble">
+                    <img src="canada-flag.png" alt="Canada" class="flag flag1">
+                    <img src="italy-flag.png" alt="Italy" class="flag flag2">
+                    <img src="usa-flag.png" alt="USA" class="flag flag3">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>📞 Contact us at: 0551315429 | 📧 Email: info@studymultiservice.com</p>
+        <p>&copy; 2025 StudyMulti Service</p>
+    </footer>
+</body>
+</html>
