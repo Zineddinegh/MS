@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMulti Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="site-title">StudyMulti Service</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-lang="home">Home</a></li>
+                <li><a href="#" data-lang="canada">Canada Visa</a></li>
+                <li><a href="#" data-lang="italy">Italy Visa</a></li>
+                <li><a href="#" data-lang="usa">USA Visa</a></li>
+                <li><a href="#" data-lang="caq">CAQ Services</a></li>
+                <li><a href="#" data-lang="videos">Videos</a></li>
+                <li><a href="#" data-lang="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="language-selector">
+            <button onclick="changeLanguage('en')">🇬🇧 English</button>
+            <button onclick="changeLanguage('fr')">🇫🇷 Français</button>
+            <button onclick="changeLanguage('ar')">🇦🇪 العربية</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="main-title">Welcome to StudyMulti Service</h2>
+            <p id="description">We provide visa assistance for Canada, Italy, and the USA.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p id="contact-info">📞 Contact us: 0551315429 | 📧 info@studymultiservice.com</p>
+        <p>&copy; 2025 StudyMulti Service</p>
+    </footer>
+</body>
+</html>
