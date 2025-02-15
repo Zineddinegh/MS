@@ -1,0 +1,12 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const userLang = navigator.language || navigator.userLanguage; 
+    const greetingElement = document.getElementById('greeting');
+    
+    const greetings = {
+        'en': 'Welcome!',
+        'fr': 'Bienvenue!',
+        'es': '¡Bienvenido!'
+    };
+    
+    greetingElement.innerText = greetings[userLang.substring(0, 2)] || greetings['en'];
+});
