@@ -1,0 +1,51 @@
+const translations = {
+    en: {
+        siteTitle: "StudyMulti Service",
+        home: "Home",
+        canada: "Canada Visa",
+        italy: "Italy Visa",
+        usa: "USA Visa",
+        caq: "CAQ Services",
+        videos: "Videos",
+        contact: "Contact",
+        mainTitle: "Welcome to StudyMulti Service",
+        description: "We provide visa assistance for Canada, Italy, and the USA.",
+        contactInfo: "📞 Contact us: 0551315429 | 📧 info@studymultiservice.com"
+    },
+    fr: {
+        siteTitle: "Service StudyMulti",
+        home: "Accueil",
+        canada: "Visa Canada",
+        italy: "Visa Italie",
+        usa: "Visa États-Unis",
+        caq: "Services CAQ",
+        videos: "Vidéos",
+        contact: "Contact",
+        mainTitle: "Bienvenue chez StudyMulti Service",
+        description: "Nous aidons pour les visas au Canada, en Italie et aux États-Unis.",
+        contactInfo: "📞 Contactez-nous: 0551315429 | 📧 info@studymultiservice.com"
+    },
+    ar: {
+        siteTitle: "خدمة StudyMulti",
+        home: "الرئيسية",
+        canada: "تأشيرة كندا",
+        italy: "تأشيرة إيطاليا",
+        usa: "تأشيرة أمريكا",
+        caq: "خدمات CAQ",
+        videos: "الفيديوهات",
+        contact: "اتصل بنا",
+        mainTitle: "مرحبًا بك في StudyMulti Service",
+        description: "نحن نقدم المساعدة في الحصول على التأشيرات لكندا وإيطاليا وأمريكا.",
+        contactInfo: "📞 تواصل معنا: 0551315429 | 📧 info@studymultiservice.com"
+    }
+};
+
+function changeLanguage(lang) {
+    document.getElementById("site-title").textContent = translations[lang].siteTitle;
+    document.querySelectorAll("[data-lang]").forEach(el => {
+        el.textContent = translations[lang][el.getAttribute("data-lang")];
+    });
+    document.getElementById("main-title").textContent = translations[lang].mainTitle;
+    document.getElementById("description").textContent = translations[lang].description;
+    document.getElementById("contact-info").textContent = translations[lang].contactInfo;
+}
